@@ -165,3 +165,8 @@ main {
     width: 100%;
     border-radius: 20px;
 }
+
+figure a {
+text-decoration: none;
+color: #000;
+}
