@@ -57,3 +57,69 @@ margin: 10px;
     width: 80%;
     background-color: #EFEFEF;
 }
+
+hr {
+    outline: 1px solid yellow;
+    margin-bottom: 0;
+}
+
+.sub-menu {
+    outline: 1px solid red;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+.sub-menu div {
+    display: inline-block;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+
+.buttom-one {
+    width: 150px;
+    background-color: #745060;
+} 
+
+.buttom-two {
+    background-color:#ab8b6f;
+    width: 110px;
+}
+
+.buttom-three {
+    background-color: #88735d;
+    width: 80px;
+}
+
+.buttom-four {
+    background-color: #8e6e52;
+    width: 80px;
+}
+
+.buttom-five {
+    background-color: #9b944b;
+    width: 150px;
+}
+
+.buttom-six {
+    background-color: #82725a;
+    width: 100px;
+}
+
+.buttom-seven {
+    background-color: #888081;
+    width: 80px;
+}
+
+.buttom-eight {
+    background-color: #9a775b;
+    width: 100px;
+}
+
+.buttom-nine {
+    background-color: #af7f74;
+    width: 100px;
+}
