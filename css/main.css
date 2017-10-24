@@ -15,6 +15,8 @@ header {
     position: fixed;
     background-color: #fff;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .icon-pinterest {
@@ -27,9 +29,9 @@ header {
 }
 
 .menu {
- width: 70%;
+ width: 80%;
  display: inline-block;
-
+ margin: 0;
 }
 
 .menu .icon-user, .icon-bubble, .icon-menu {
@@ -59,7 +61,6 @@ margin: 10px;
 }
 
 hr {
-    outline: 1px solid yellow;
     margin-bottom: 0;
 }
 
@@ -122,4 +123,26 @@ hr {
 .buttom-nine {
     background-color: #af7f74;
     width: 100px;
+}
+
+
+
+.first-column, .second-column, .third-column {
+    width: 33%;
+    display: inline-block;
+}
+
+.first-column figure img {
+    outline: 1px solid orange;
+    width: 100%;
+    
+}
+
+.second-column figure img {
+    outline: 1px solid orange;
+    width: 100%;
+}
+
+.third-column figure img {
+    width: 100%;
 }
