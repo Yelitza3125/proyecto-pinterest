@@ -23,6 +23,20 @@ header {
     font-size: 30px;
     margin-left: 80px;
 }
+
+.icon-search {
+    position: relative;
+    right: 680px;
+}
+
+.javascript {
+    position: relative;
+    right: 695px;
+    font-size: 20px;
+    color: gray;
+}
+
+
 .menu, .sub-menu {
     text-align: center!important;
     display: inline-block;
@@ -37,6 +51,7 @@ header {
 .menu .icon-user, .icon-bubble, .icon-menu {
     margin-right: 30px;
     font-size: 20px;
+    color: #b5b5b5;
 }
 
 .box-header {
@@ -65,9 +80,10 @@ hr {
 }
 
 .sub-menu {
-    outline: 1px solid red;
     font-size: 18px;
     width: 100%;
+    height: 100px;
+    padding-bottom: 0;
 }
 
 
