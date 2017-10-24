@@ -125,24 +125,20 @@ hr {
     width: 100px;
 }
 
-
+main {
+    margin: auto;
+    overflow: auto;
+    max-width: 1400px;
+}
 
 .first-column, .second-column, .third-column {
     width: 33%;
     display: inline-block;
+    float: left;
 }
 
-.first-column figure img {
-    outline: 1px solid orange;
+.first-column figure img, .second-column figure img, .third-column figure img {
+    /*outline: 1px solid orange; */
     width: 100%;
-    
-}
-
-.second-column figure img {
-    outline: 1px solid orange;
-    width: 100%;
-}
-
-.third-column figure img {
-    width: 100%;
+    border-radius: 20px;
 }
