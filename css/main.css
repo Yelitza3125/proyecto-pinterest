@@ -93,13 +93,21 @@ hr {
     border-radius: 8px;
     text-align: center;
     margin: 5px 10px;
+    position: relative;
 }
 
 
+ .sub-menu ul div li {
+     position: absolute;
+     left: 20px;
+    bottom: 15px;
+    color: #fff;
+ }
+
 .buttom-one {
     width: 150px;
-    background-color: #745060;
-} 
+    background-color: #745060;  
+}
 
 .buttom-two {
     background-color:#ab8b6f;
