@@ -15,13 +15,14 @@ header {
     position: fixed;
     background-color: #fff;
     width: 100%;
-    margin: 0;
+    top: 0;
     padding: 0;
 }
 
 .icon-pinterest {
     font-size: 30px;
     margin-left: 80px;
+    color: rgb(172, 27, 27);
 }
 
 .icon-search {
@@ -82,7 +83,6 @@ hr {
 .sub-menu {
     font-size: 18px;
     width: 100%;
-    height: 100px;
     padding-bottom: 0;
 }
 
@@ -142,14 +142,13 @@ hr {
 }
 
 main {
-    margin: auto;
+    margin: 170px auto auto ;
     overflow: auto;
     max-width: 1400px;
 }
 
 .first-column, .second-column, .third-column {
     width: 33%;
-    display: inline-block;
     float: left;
 }
 
