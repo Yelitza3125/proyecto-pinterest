@@ -181,4 +181,35 @@ h4 {
 }
 .icon-pushpin, .icon-checkmark {
     font-size: 10px;
+    color: gray;
+}
+
+.usser-letter {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top:4px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #d597a1;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.usser-name  {
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+}
+
+.hashtag {
+    display: block;
+    position: relative;
+    left: 35px;
 }
