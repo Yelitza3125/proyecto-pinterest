@@ -1,3 +1,5 @@
+
+/*reseteando el archivo css y estableciendo los estilos generales del diseño*/
 body {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +7,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* La sección header es fijada a través de posotion y con un ancho total de body. Se establace z-index para darle prioridad y se superponga a los demás elementos*/
 header {
     position: fixed;
     background-color: #fff;
@@ -14,11 +17,13 @@ header {
     z-index: 1000;
 }
 
+/*Estableciendo el diseño de lista de los sub partes de header*/
 .menu li, .sub-menu li {
     list-style: none;
     display: inline;
 }
 
+/*Por medio de selectores de clase, los iconos son desplazados con position relative*/
 .icon-pinterest {
     font-size: 30px;
     margin-left: 80px;
@@ -37,7 +42,7 @@ header {
     color: gray;
 }
 
-
+/*se establece com importante el centrado de texto*/
 .menu, .sub-menu {
     text-align: center!important;
     display: inline-block;
@@ -55,10 +60,12 @@ header {
     color: #b5b5b5;
 }
 
+/*Inline-block, para hacer espacio a los otros elementos*/
 .box-header {
     display: inline-block;
 }
 
+/*Selector de clase, para alinear el elemento input del menu*/
 .input div {
 display: inline-block;
 margin: 10px; 
@@ -70,23 +77,26 @@ margin: 10px;
     margin-right: 50px;
 }
 
+/*El elemento con clase input, que está dentro de menu, tiene un ancho de 80% de su contenedor*/
  .menu .input {
     display: inline-block;
     width: 80%;
     background-color: #EFEFEF;
 }
 
+/*Añadiendo una lista horizontal debajo de menu*/
 hr {
     margin-bottom: 0;
 }
 
+/*Estableciendo dimensiones de sub-menu*/
 .sub-menu {
     font-size: 18px;
     width: 100%;
     padding-bottom: 0;
 }
 
-
+/*Dando diseño a cada contenedor de sub-menu*/
 .sub-menu div {
     display: inline-block;
     height: 60px;
@@ -96,7 +106,7 @@ hr {
     position: relative;
 }
 
-
+/*Desplazando el texto de cada contenedor con absolute, para que se superponga al contenedor*/
  .sub-menu ul div li {
      position: absolute;
      left: 20px;
@@ -104,89 +114,99 @@ hr {
      color: #fff;
  }
 
-.buttom-one {
+ /*Con selectores de clase, se establece el tamaño y color de fondo de cada botón*/
+.button-one {
     width: 150px;
     background-color: #745060;  
 }
 
-.buttom-two {
+.button-two {
     background-color:#ab8b6f;
     width: 110px;
 }
 
-.buttom-three {
+.button-three {
     background-color: #88735d;
     width: 80px;
 }
 
-.buttom-four {
+.button-four {
     background-color: #8e6e52;
     width: 80px;
 }
 
-.buttom-five {
+.button-five {
     background-color: #9b944b;
     width: 150px;
 }
 
-.buttom-six {
+.button-six {
     background-color: #82725a;
     width: 100px;
 }
 
-.buttom-seven {
+.button-seven {
     background-color: #888081;
     width: 80px;
 }
 
-.buttom-eight {
+.button-eight {
     background-color: #9a775b;
     width: 100px;
 }
 
-.buttom-nine {
+.button-nine {
     background-color: #af7f74;
     width: 100px;
 }
 
+/*Estableciendo las dimensiones de la parte central de la página. Se determina overflow para contender a los elementos flotados. Y un max-widht, para cuando el tamaño de la pantalla del navegador sea menor, se vea el diseño*/
 main {
     margin: 170px auto auto ;
     overflow: auto;
     max-width: 1400px;
 }
 
+/*El tamaño de cada columna es el 33% de main*/
 .first-column, .second-column, .third-column {
     width: 33%;
     float: left;
 }
 
+/*Cada imagen contenida dentro de cada columna, ocupa el 100% de su contendedor*/
 .first-column figure img, .second-column figure img, .third-column figure img {
     /*outline: 1px solid orange; */
     width: 100%;
     border-radius: 20px;
 }
 
+/*Se cambia el diseño por defecto de la etiqueta a*/
 figure a {
 text-decoration: none;
 color: #000;
 }
 
+
+/*Aquí se aplica estilo al contenedor div, con clase "text", a su elemento h4, que es un subtítulo*/
 h4 {
     display: inline-block;
     margin-right: 200px;
     margin-bottom: 5px;
 }
 
+/*Estableciendo el ancho del texto contenido dentro de "text"*/
 .text p{
     width:70%;
     margin-top: 10px;
 }
+
+/*Estilo a los íconos, tamaño y color*/
 .icon-pushpin, .icon-checkmark {
     font-size: 10px;
     color: gray;
 }
 
-
+/*Dando estilo a la letra del nombre del usuario*/
 .user-letter {
     color: #fff;
     font-size: 15px;
@@ -195,6 +215,7 @@ h4 {
     top:4px;
 }
 
+/*Generando el círculo que contiene la letra inicial del usuario*/
 .circle {
     width: 30px;
     height: 30px;
@@ -204,12 +225,14 @@ h4 {
     display: inline-block;
 }
 
+/*Desplazando el nombre del usuario con position relative*/
 .user-name  {
+    font-weight: bold;
     position: relative;
     top: 6px;
-    font-weight: bold;
 }
 
+/*Hashtag tiene un display block, para que se ubique debajo del nombre del usuario. Se establece z-index "inherit", para que tenga la misma importancia de aparición que su contendor: div, con clase user*/
 .hashtag {
     display: block;
     position: relative;
