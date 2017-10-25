@@ -5,18 +5,18 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.menu li, .sub-menu li {
-    list-style: none;
-    display: inline;
-}
-
-
 header {
     position: fixed;
     background-color: #fff;
     width: 100%;
     top: 0;
     padding: 0;
+    z-index: 1000;
+}
+
+.menu li, .sub-menu li {
+    list-style: none;
+    display: inline;
 }
 
 .icon-pinterest {
@@ -100,8 +100,8 @@ hr {
  .sub-menu ul div li {
      position: absolute;
      left: 20px;
-    bottom: 15px;
-    color: #fff;
+     bottom: 15px;
+     color: #fff;
  }
 
 .buttom-one {
@@ -186,9 +186,9 @@ h4 {
     color: gray;
 }
 
+
 .user-letter {
     color: #fff;
-    display: inline-block;
     font-size: 15px;
     font-weight: bold;
     position: relative;
@@ -214,4 +214,5 @@ h4 {
     display: block;
     position: relative;
     left: 35px;
+    z-index: inherit;
 }
