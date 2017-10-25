@@ -176,6 +176,9 @@ h4 {
     margin-right: 200px;
 }
 
+.text p{
+    width:70%;
+}
 .icon-pushpin, .icon-checkmark {
     font-size: 10px;
 }
