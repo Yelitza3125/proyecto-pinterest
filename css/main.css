@@ -174,17 +174,19 @@ color: #000;
 h4 {
     display: inline-block;
     margin-right: 200px;
+    margin-bottom: 5px;
 }
 
 .text p{
     width:70%;
+    margin-top: 10px;
 }
 .icon-pushpin, .icon-checkmark {
     font-size: 10px;
     color: gray;
 }
 
-.usser-letter {
+.user-letter {
     color: #fff;
     display: inline-block;
     font-size: 15px;
@@ -202,7 +204,7 @@ h4 {
     display: inline-block;
 }
 
-.usser-name  {
+.user-name  {
     position: relative;
     top: 6px;
     font-weight: bold;
